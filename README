@@ -1,0 +1,6 @@
+Random scripts for random tasks
+
+
+Scripts description:
+~~~
+crawling.py --> crawl topics in (forumotion) subforum, retrieve sorted titles and urls in form to be posted (for creating index of topics in subforums)  
