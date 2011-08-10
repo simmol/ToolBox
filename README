@@ -4,3 +4,17 @@ Random scripts for random tasks
 Scripts description:
 ~~~
 crawling.py --> crawl topics in (forumotion) subforum, retrieve sorted titles and urls in form to be posted (for creating index of topics in subforums)  
+
+new_php.py --> script to automate project setup for php based projects for ubuntu/debian systems;
+  features:
+    * write host in format "name".dev to /etc/hosts - TODO configurable place for hosts
+    * write vhost record in /etc/apache2/httpd.conf - TODO configurable place for vhosts
+    * connect to mysql server and try to create db with "name" - TODO configurable other DB servers
+  
+  usage:
+    * simple usage - It use the given directoryname as "name" for the project domain and dbname
+      sudo python new_php.py <path to dir of the project>
+
+  todo:
+    * More configuration options -- totaly optional ofcourse -- because idea of automation is to be automatic not writing 100 lines config option :)
+
